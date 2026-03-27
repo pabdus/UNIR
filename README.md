@@ -1,6 +1,6 @@
 # 📚 UNIR — Materiales de Maestría
 
-Repositorio de materiales, apuntes y recursos de la Maestría en la Universidad Internacional de La Rioja (UNIR).
+Repositorio de materiales, apuntes y recursos de la Maestría en IA de la Universidad Internacional de La Rioja (UNIR).
 
 ---
 
