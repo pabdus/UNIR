@@ -1,0 +1,15 @@
+# Entornos virtuales Python
+.venv/
+venv/
+env/
+
+# Archivos temporales del sistema
+*.lnk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo

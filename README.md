@@ -8,13 +8,13 @@ Repositorio de materiales, apuntes y recursos de la Maestría en IA de la Univer
 
 | Carpeta | Descripción |
 |---|---|
-| `Investigacion de Proyectos IA` | Guías de evaluación y temas 1-4 |
-| `Procesamiento del Lenguaje Natural` | Temas 1-3 y guías de evaluación |
-| `PSU - IA Generativa aplicada a Data` | Scripts y recursos de IA generativa |
-| `Razonamiento y Planificación Automatica` | Temas 1-3, archivos PDDL y guías |
+| `Investigacion de Proyectos IA` | Temas 1–4 y guías de evaluación 1–4 |
+| `Procesamiento del Lenguaje Natural` | Temas 1–3 y guías de evaluación |
+| `PSU - IA Generativa aplicada a Data` | Temas 1–4, guías 1–2 y scripts |
+| `Razonamiento y Planificación Automatica` | Temas 1–4, archivos PDDL y guías |
 | `Resumenes, Libros Documentos` | Resúmenes y bibliografía |
-| `Tecnicas de Aprendizaje automático` | Temas 1-3 y guías de evaluación |
-| `Visión Artificial` | Temas 1-3 y guías de evaluación final |
+| `Tecnicas de Aprendizaje automático` | Temas 1–4, guías 1–4 y código de práctica |
+| `Visión Artificial` | Temas 1–4 y guías de evaluación |
 | `WordkSpace VSC` | Configuración de workspace Visual Studio Code |
 
 ---
@@ -28,10 +28,10 @@ Repositorio de materiales, apuntes y recursos de la Maestría en IA de la Univer
 
 ## 🔄 Historial de sincronización
 
-| Fecha | Archivos subidos | Cambios |
+| Fecha | Descripción | Novedades |
 |---|---|---|
 | 2026-03-27 | Primer push — estructura completa | Repositorio inicializado |
-| 2026-04-02 | 62 archivos | Nueva asignatura PLN (Temas 1-3 + guías); Investigación Proyectos IA Tema 4; Razonamiento Tema 3 + artículos + PDDL; Visión Artificial guías; notebooks IA Generativa |
+| 2026-04-05 | Actualización — nuevos temas y materiales | Nueva asignatura PLN; Temas 4 en Investigación, Razonamiento, Técnicas, Visión Artificial; PSU Temas 1–4 + guías; notebooks y código de práctica |
 
 ---
 
