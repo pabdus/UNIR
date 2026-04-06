@@ -8,7 +8,8 @@ Repositorio de materiales, apuntes y recursos de la Maestría en IA de la Univer
 
 | Carpeta | Descripción |
 |---|---|
-| `Investigacion de Proyectos IA` | Guías de evaluación y temas 1, 2, 3 |
+| `Investigacion de Proyectos IA` | Guías de evaluación y temas 1-4 |
+| `Procesamiento del Lenguaje Natural` | Temas 1-3 y guías de evaluación |
 | `PSU - IA Generativa aplicada a Data` | Scripts y recursos de IA generativa |
 | `Razonamiento y Planificación Automatica` | Temas 1-3, archivos PDDL y guías |
 | `Resumenes, Libros Documentos` | Resúmenes y bibliografía |
@@ -30,6 +31,7 @@ Repositorio de materiales, apuntes y recursos de la Maestría en IA de la Univer
 | Fecha | Archivos subidos | Cambios |
 |---|---|---|
 | 2026-03-27 | Primer push — estructura completa | Repositorio inicializado |
+| 2026-04-02 | 62 archivos | Nueva asignatura PLN (Temas 1-3 + guías); Investigación Proyectos IA Tema 4; Razonamiento Tema 3 + artículos + PDDL; Visión Artificial guías; notebooks IA Generativa |
 
 ---
 
