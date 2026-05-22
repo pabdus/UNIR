@@ -13,3 +13,16 @@ desktop.ini
 __pycache__/
 *.pyc
 *.pyo
+
+# Archivos multimedia (videos/audio - demasiado pesados para git)
+*.mp4
+*.m4a
+*.avi
+*.mov
+*.mkv
+
+# Datasets grandes
+02Dataset_anonimizado.csv
+
+# Archivos temporales de Word
+~$*

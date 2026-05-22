@@ -1,0 +1,7 @@
+gamma,efecto,media,std (RMS),rango dinámico efectivo (P99-P1),contraste de Michelson,entropía Shannon (bits)
+0.2,aclara,134.973,39.319,168.0,0.5,5.343
+0.3,aclara,101.334,45.314,202.0,0.678,5.41
+0.5,aclara,60.405,48.397,232.0,0.885,5.469
+0.7,aclara,39.123,46.701,240.0,0.96,5.495
+1.0,identidad,23.771,42.616,240.0,0.992,5.517
+1.5,oscurece,12.939,37.233,234.0,1.0,3.706

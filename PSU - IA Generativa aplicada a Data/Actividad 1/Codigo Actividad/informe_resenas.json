@@ -1,0 +1,103 @@
+{
+  "puntos_positivos": [],
+  "puntos_negativos": [
+    {
+      "categoria": "calidad_producto",
+      "frecuencia": 6,
+      "quejas": [
+        "No cumple con las expectativas, material de mala calidad.",
+        "El color no es como en la imagen, parece usado.",
+        "El producto dejó de funcionar a los pocos días.",
+        "La batería dura muy poco, nada que ver con lo prometido.",
+        "Vino con manchas y olores extraños, parecía de segunda mano.",
+        "Demasiado pequeño, la descripción no coincidía con el tamaño real."
+      ]
+    },
+    {
+      "categoria": "logistica_entrega",
+      "frecuencia": 2,
+      "quejas": [
+        "Entrega muy lenta. No volveré a comprar.",
+        "Faltaban piezas importantes dentro del paquete."
+      ]
+    },
+    {
+      "categoria": "empaque",
+      "frecuencia": 2,
+      "quejas": [
+        "Producto llegó dañado y el empaque estaba abierto.",
+        "Vino con manchas y olores extraños, parecía de segunda mano."
+      ]
+    },
+    {
+      "categoria": "servicio_cliente",
+      "frecuencia": 1,
+      "quejas": [
+        "El servicio al cliente no respondió ante mi reclamación."
+      ]
+    },
+    {
+      "categoria": "informacion_producto",
+      "frecuencia": 2,
+      "quejas": [
+        "Las instrucciones eran confusas y venían en otro idioma.",
+        "Tuve que pagar gastos adicionales que no estaban informados."
+      ]
+    },
+    {
+      "categoria": "precio",
+      "frecuencia": 1,
+      "quejas": [
+        "Precio elevado para la calidad ofrecida."
+      ]
+    },
+    {
+      "categoria": "seguridad",
+      "frecuencia": 1,
+      "quejas": [
+        "Se desliza demasiado, no es seguro como se anunciaba."
+      ]
+    },
+    {
+      "categoria": "durabilidad",
+      "frecuencia": 1,
+      "quejas": [
+        "La batería dura muy poco, nada que ver con lo prometido."
+      ]
+    },
+    {
+      "categoria": "documentacion",
+      "frecuencia": 1,
+      "quejas": [
+        "Muy complicado de configurar, requiere asistencia técnica."
+      ]
+    }
+  ],
+  "resumen_ejecutivo": "El análisis de las reseñas revela una serie de deficiencias significativas en la calidad del producto, la logística de entrega y el servicio al cliente. Los clientes han expresado insatisfacción con respecto a la calidad de los materiales, la precisión de la información del producto y la falta de respuesta del servicio al cliente. Estas áreas críticas requieren atención inmediata para mejorar la experiencia del cliente y reducir la tasa de insatisfacción. Se recomienda implementar acciones específicas para abordar estas quejas y mejorar la percepción de la marca.",
+  "acciones_mejora": [
+    {
+      "accion": "Revisar y mejorar la calidad de los productos ofrecidos.",
+      "area_responsable": "Calidad del Producto",
+      "kpi_sugerido": "Tasa de devoluciones por calidad",
+      "horizonte": "corto"
+    },
+    {
+      "accion": "Optimizar el proceso de entrega para reducir tiempos.",
+      "area_responsable": "Logística",
+      "kpi_sugerido": "Tiempo promedio de entrega",
+      "horizonte": "medio"
+    },
+    {
+      "accion": "Fortalecer el servicio al cliente para asegurar respuestas rápidas.",
+      "area_responsable": "Atención al Cliente",
+      "kpi_sugerido": "Tiempo de respuesta a reclamaciones",
+      "horizonte": "corto"
+    },
+    {
+      "accion": "Actualizar la documentación del producto para mayor claridad.",
+      "area_responsable": "Documentación",
+      "kpi_sugerido": "Satisfacción del cliente con la documentación",
+      "horizonte": "medio"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+técnica,diff_max,diff_mean,diff_std,pct_pixeles_>5,cambio_medio_act,entropia_diff
+Log,131,85.46,31.02,98.94,86.09,4.93
+Gamma 0.5,63,36.63,15.07,98.62,36.93,4.734
+A trozos,90,13.38,20.29,44.94,14.08,4.777
+Igualación,178,109.84,51.36,99.02,110.17,5.051

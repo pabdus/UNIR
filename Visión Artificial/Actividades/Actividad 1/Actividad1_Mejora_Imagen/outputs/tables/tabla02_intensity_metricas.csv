@@ -1,0 +1,7 @@
+transformación,media,std (RMS),rango dinámico efectivo (P99-P1),contraste de Michelson,entropía Shannon (bits)
+Original,23.771,42.616,240.0,0.992,5.517
+Negativo,231.229,42.616,240.0,0.896,5.517
+Logarítmica,109.232,54.211,221.0,0.781,5.364
+Gamma γ=0.3,101.334,45.314,202.0,0.678,5.41
+Gamma γ=0.5,60.405,48.397,232.0,0.885,5.469
+A trozos,37.15,57.792,248.0,0.992,5.448

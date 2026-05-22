@@ -32,6 +32,7 @@ Repositorio de materiales, apuntes y recursos de la Maestría en IA de la Univer
 |---|---|---|
 | 2026-03-27 | Primer push — estructura completa | Repositorio inicializado |
 | 2026-04-05 | Actualización — nuevos temas y materiales | Nueva asignatura PLN; Temas 4 en Investigación, Razonamiento, Técnicas, Visión Artificial; PSU Temas 1–4 + guías; notebooks y código de práctica |
+| 2026-05-07 | Sincronización quincenal — ~51 archivos | Actividad 1 Visión Artificial (código Python + figuras + tablas); PLN Temas 4 y 5 + guía T4; Razonamiento Tema 6 + guía; TAM Lab 1 notebooks; compromiso trabajos grupales. PSU Act.1 omitida (subida aparte) |
 
 ---
 

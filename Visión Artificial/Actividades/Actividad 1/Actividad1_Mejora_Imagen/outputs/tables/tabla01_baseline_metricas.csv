@@ -1,0 +1,5 @@
+imagen,alto,ancho,media,std (RMS),rango dinámico efectivo (P99-P1),contraste de Michelson,entropía Shannon (bits)
+1013.png,720,1080,34.116,42.796,216.0,0.991,6.238
+1033.png,720,1080,23.771,42.616,240.0,0.992,5.517
+1045.png,720,1080,24.82,31.204,158.0,0.988,5.625
+1088.png,720,1080,32.501,34.212,186.0,0.969,6.3

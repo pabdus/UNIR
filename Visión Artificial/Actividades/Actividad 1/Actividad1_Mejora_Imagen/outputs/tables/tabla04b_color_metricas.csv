@@ -1,0 +1,5 @@
+técnica,estrategia,delta_H_mean,delta_S_mean,std_luminancia,entropia_luminancia
+Gamma γ=0.5,RGB naive,0.756,23.622,39.7,6.305
+Gamma γ=0.5,HSV,0.523,1.542,39.7,6.305
+Igualación histograma,RGB naive,29.09,30.163,70.25,6.974
+Igualación histograma,HSV,0.591,2.494,72.43,6.104

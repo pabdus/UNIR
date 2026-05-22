@@ -23,7 +23,9 @@ Este proyecto centraliza el material de repaso de la materia **Técnicas de Apre
 | 2 | Análisis Descriptivo y Exploratorio de Datos (EDA) | ✅ Completado | `Guia_Estudio_Tema2.pdf` | Mar 2026 |
 | 3 | Datos Ausentes y Normalización | ✅ Completado | `Guia_Estudio_Tema3.pdf` | Mar 2026 |
 | 4 | Regresión y Evaluación de Algoritmos de Regresión | ✅ Completado | `Guia_Estudio_Tema4.pdf` | Abr 2026 |
-| 5 | Pendiente | ⬜ Pendiente | — | — |
+| 5 | Evaluación de Algoritmos de Clasificación | ✅ Completado | `Guia_Estudio_Tema5.pdf` | Abr 2026 |
+| 6 | Árboles de Decisión (Regresión y Clasificación) | ✅ Completado | `Guia_Estudio_Tema6.pdf` | May 2026 |
+| 7 | Pendiente | ⬜ Pendiente | — | — |
 
 ---
 
@@ -114,10 +116,6 @@ Este proyecto centraliza el material de repaso de la materia **Técnicas de Apre
 - **Alta varianza → overfitting:** modelo memoriza el ruido del training, no generaliza
 - **Error irreducible:** ruido inherente en los datos, ningún modelo puede eliminarlo
 
-**Visualización de errores:**
-- **Gráfico observados vs. predichos:** puntos sobre la diagonal = sobreestimación · puntos bajo = subestimación
-- **Gráfico de residuos:** dispersión aleatoria = modelo apropiado · patrón en abanico = heterocedasticidad · patrón curvo = no linealidad
-
 **Comandos Python clave:**
 `mean_squared_error()` · `root_mean_squared_error()` · `r2_score()` · `mean_absolute_error()` · `root_mean_squared_log_error()` · `LinearRegression()` · `Pipeline()` · `train_test_split()`
 
@@ -125,6 +123,91 @@ Este proyecto centraliza el material de repaso de la materia **Técnicas de Apre
 - Ecuación normal derivada algebraicamente en Lecture 2
 - Descenso por gradiente: principio unificador de todo el curso CS229
 - Bias-variance tradeoff: reaparece en regularización, redes neuronales y ensembles
+
+---
+
+## ✅ Tema 5 — Evaluación de Algoritmos de Clasificación
+
+**Conceptos clave dominados:**
+
+**Fundamentos de clasificación:**
+- Diferencia regresión vs. clasificación: output numérico continuo vs. etiqueta discreta
+- Clasificación binaria (2 clases) vs. multiclase (n > 2 clases) vs. multietiqueta
+- Dos tipos de output de un clasificador: probabilidad de pertenencia P(y=c|x) ∈ [0,1] + clase predicha con umbral τ (por defecto τ = 0.5)
+
+**Matriz de Confusión:**
+- Estructura 2×2 para clasificación binaria: TP · TN · FP (error tipo I) · FN (error tipo II)
+- FP vs. FN tienen costos radicalmente distintos según el contexto
+
+**Métricas derivadas:**
+- **Accuracy:** (TP+TN)/(TP+TN+FP+FN) · engañoso con clases desbalanceadas
+- **Precision:** TP/(TP+FP) · priorizar cuando FP es costoso
+- **Recall (Sensibilidad):** TP/(TP+FN) · priorizar cuando FN es costoso
+- **F1-Score:** 2·TP/(2·TP+FP+FN) · media armónica Precision-Recall
+- **Especificidad:** TN/(TN+FP)
+
+**Curva ROC y AUC:**
+- ROC grafica TPR vs. FPR para todos los umbrales τ ∈ [0,1]
+- AUC rango [0.5, 1.0] · ≥0.90 Excelente · 0.80–0.90 Bueno · 0.70–0.80 Aceptable
+
+**Comandos Python clave:**
+`confusion_matrix()` · `accuracy_score()` · `precision_score()` · `recall_score()` · `f1_score()` · `roc_auc_score()` · `roc_curve()` · `classification_report()`
+
+**Conexión con CS229 Stanford:** Regresión logística (Lecture 3) · umbral de decisión τ → curva ROC
+
+---
+
+## ✅ Tema 6 — Árboles de Decisión (Regresión y Clasificación)
+
+**Conceptos clave dominados:**
+
+**Estructura y anatomía:**
+- **Nodo raíz:** único nodo sin aristas entrantes, contiene la pregunta más informativa (mayor InfoGain / ΔGini)
+- **Nodos internos:** contienen condiciones evaluables sobre atributos (ej: `¿edad ≤ 30?`). Las ramas contienen las respuestas posibles
+- **Nodos hoja:** predicción final — clase mayoritaria (clasificación) o media del target (regresión)
+- Construcción: algoritmo **greedy, top-down, recursivo** — en cada nodo elige el atributo que maximiza la reducción de impureza
+
+**Interpretación geométrica:**
+- Cada condición = corte ortogonal a un eje (hiperplano perpendicular a un eje)
+- El árbol completo = partición del espacio de features en **hiperrectángulos**
+- Cada hoja = una región rectangular con su predicción asignada
+- Captura fronteras de decisión **no lineales** (reglas AND/OR) nativas sin transformaciones
+- Limitación: **no extrapolación** fuera del rango de entrenamiento
+
+**Criterios de división — Clasificación:**
+- **Entropía de Shannon:** H(S) = −Σ pᵢ·log₂(pᵢ) · rango [0,1] en binario · H=0 es pureza
+- **Ganancia de Información:** InfoGain(F) = H(S) − Σ (|Sᵥ|/|S|)·H(Sᵥ) · elegir el atributo con mayor InfoGain
+- **Índice de Gini:** Gini(S) = 1 − Σ pᵢ² · rango [0, 0.5] en binario · Gini=0 es pureza
+- **Reducción de Gini:** ΔGini(F) = Gini(S) − Σ (|Sᵥ|/|S|)·Gini(Sᵥ)
+
+**Criterio de división — Regresión:**
+- **Varianza / reducción de varianza:** Var(S) = (1/|S|)·Σ(yᵢ−ȳS)² · equivalente al MSE del Tema 4
+- Hoja predice la **media** del target de las observaciones que cayeron en ella
+
+**Algoritmos clásicos:**
+- **ID3** (Quinlan, 1986): solo clasificación · solo categóricas · InfoGain · árbol n-ario
+- **C4.5** (Quinlan, 1993): solo clasificación · cat. + num. · gain ratio · reglas if-then · poda
+- **C5.0** (Quinlan, post-1993): versión comercial de C4.5 · más eficiente y preciso
+- **CART** (Breiman et al., 1984): clasificación + **regresión** · cat. + num. · Gini/Varianza · **árbol estrictamente binario** · implementación de scikit-learn
+
+**Overfitting y poda:**
+- Árbol sin restricciones → memoriza train (accuracy=100%), falla en test → alta varianza
+- **Prepoda (Early Stopping):** detener durante construcción · `max_depth`, `min_samples_split`, `min_samples_leaf` · eficiente pero miope
+- **Pospoda (Post-Pruning):** construir completo → eliminar ramas sin valor en validación · visión global · mejor calidad · más costosa
+- La poda **sacrifica ajuste en train** para **mejorar generalización en test** (bias-variance tradeoff)
+- Selección del árbol óptimo: validación cruzada (k-fold CV) o curva de validación (accuracy vs. profundidad)
+
+**Árboles vs. Modelos Lineales:**
+- Árboles: no requieren escalado ni codificación · sin supuestos estadísticos · capturan no linealidad · alta varianza · no extrapolación
+- Lineales: requieren escalado y OHE · supuestos (linealidad, normalidad, homocedasticidad) · solo frontera lineal · más estables · extrapolación
+
+**Comandos Python clave:**
+`DecisionTreeClassifier(criterion='gini', max_depth=5)` · `DecisionTreeRegressor(criterion='squared_error')` · `export_text()` · `plot_tree()` · `feature_importances_` · `GridSearchCV()` · `cross_val_score()`
+
+**Conexión con CS229 Stanford:**
+- Bias-variance tradeoff (Lecture 8): profundidad del árbol controla directamente el tradeoff
+- Ensembles (Lectures 13–14): Random Forest y Gradient Boosting son extensiones directas del árbol individual
+- Regularización: la poda es el análogo del término λ en Ridge/Lasso
 
 ---
 
@@ -137,7 +220,9 @@ Este proyecto centraliza el material de repaso de la materia **Técnicas de Apre
 ├── Guia_Estudio_Tema2.pdf       ← Guía completa Tema 2
 ├── Guia_Estudio_Tema3.pdf       ← Guía completa Tema 3
 ├── Guia_Estudio_Tema4.pdf       ← Guía completa Tema 4
-└── (próximamente Tema 5...)
+├── Guia_Estudio_Tema5.pdf       ← Guía completa Tema 5
+├── Guia_Estudio_Tema6.pdf       ← Guía completa Tema 6
+└── (próximamente Tema 7...)
 ```
 
 ---
@@ -163,4 +248,4 @@ Este proyecto centraliza el material de repaso de la materia **Técnicas de Apre
 
 ---
 
-*Última actualización: Abril 2026 — Tema 4 completado.*
+*Última actualización: Mayo 2026 — Tema 6 completado.*

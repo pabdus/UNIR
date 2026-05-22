@@ -1,102 +1,70 @@
-# 🔄 Reporte de Sincronización — 2026-04-02
+# 🔄 Reporte de Sincronización — 2026-05-07
 
-## Archivos modificados desde último sync (62 archivos):
-
-### Investigacion de Proyectos IA
-- Guias_Evaluación/Guia_Estudio_Tema1.pdf
-- Guias_Evaluación/Guia_Estudio_Tema2.pdf
-- Guias_Evaluación/Guia_Estudio_Tema3.pdf
-- Guias_Evaluación/Guia_Estudio_Tema4_Publicacion_Redaccion_Cientifica.pdf
-- Guias_Evaluación/README.md
-- Tema 1/Tema 1.pdf
-- Tema 2/Tema 2.pdf
-- Tema 3/Tema 3.pdf
-- Tema 4. Publicacion de resultados y redacción científica/Tema 4.pdf
-
-### Procesamiento del Lenguaje Natural (NUEVA)
-- Guias Evaluación/README.md
-- Guias Evaluación/Tema_1_Introduccion_al_PLN_Guia_de_Estudio.pdf
-- Guias Evaluación/Tema_2_El_texto_como_dato_Guia_de_Estudio.pdf
-- Tema 1. Introducción al procesamiento del lenguaje natural/tema 1.pdf
-- Tema 2. El texto como dato/tema 2.pdf
-- Tema 3. Etiquetado morfosintáctico (POS tagging)/Tema 4.pdf
-
-### PSU - IA Generativa aplicada a Data
-- IA generativa + Data Scripts/Visualizacion-gain.ipynb
-
-### Razonamiento y Planificación Automatica
-- PDDL/.vscode/settings.json
-- PDDL/Blocks/PDDL.code-workspace
-- PDDL/Blocks/domain (1).pddl
-- PDDL/Blocks/probBLOCKS-10-0.pddl
-- PDDL/Codigo_Medalla.txt
-- PDDL/Transport/domain-transport-simple.pddl
-- PDDL/Transport/problem-transport-simple.pddl
-- Tema 1 Introducción a la toma de decisiones/Podcast_De_la_Decisión_Humana_al_Agente_Inteligente.m4a
-- Tema 1 Introducción a la toma de decisiones/Problema_Tema_1.docx
-- Tema 1 Introducción a la toma de decisiones/Tema 1.pdf
-- Tema 1 Introducción a la toma de decisiones/Video_IA__El_Arte_de_Decidir.mp4
-- Tema 1 Introducción a la toma de decisiones/chinchetas mentales/Etapas de resolución de problemas.png
-- Tema 1 Introducción a la toma de decisiones/chinchetas mentales/Infografía de toma de decisiones.png
-- Tema 2. Representación del conocimiento y razonamiento/Podcast_El_Mapa_Mental_de_la_IA.m4a
-- Tema 2. Representación del conocimiento y razonamiento/Problema_Tema_2.docx
-- Tema 2. Representación del conocimiento y razonamiento/Video_Las_3_lógicas_de_la_IA.mp4
-- Tema 2. Representación del conocimiento y razonamiento/tema_2.pdf
-- Tema 3. Lógica y pensamiento humano/Artículo_Chain_of_logic_preprint.pdf
-- Tema 3. Lógica y pensamiento humano/Artículo_HRM.pdf
-- Tema 3. Lógica y pensamiento humano/Artículo_Putting It All Together.pdf
-- Tema 3. Lógica y pensamiento humano/De_Aristóteles_a_la_IA.m4a
-- Tema 3. Lógica y pensamiento humano/Lógica_y_Pensamiento_Humano.mp4
-- Tema 3. Lógica y pensamiento humano/Podcast_De_la_Decisión_Humana_al_Agente_Inteligente.m4a
-- Tema 3. Lógica y pensamiento humano/Tema 3.pdf
-- guias_evaluacion/README.md
-- guias_evaluacion/tema1_guia_estudio.pdf
-- guias_evaluacion/tema2_guia_estudio.pdf
-- guias_evaluacion/tema3_guia_estudio.pdf
-
-### Tecnicas de Aprendizaje automático
-- Guias de estudio -Evaluacion Final/Guia_Estudio_Tema1.pdf
-- Guias de estudio -Evaluacion Final/Guia_Estudio_Tema2.pdf
-- Guias de estudio -Evaluacion Final/Guia_Estudio_Tema3.pdf
-- Guias de estudio -Evaluacion Final/README.md
-- Tema 1/Tema 1.pdf
-- Tema 2/Tema 2.pdf
-- Tema 3/Tema 3.pdf
-
-### Visión Artificial
-- Guia_estudio_evaluacion_final/Guia_Estudio_Tema1_Vision_Artificial.pdf
-- Guia_estudio_evaluacion_final/Guia_Estudio_Tema2_Vision_Artificial.pdf
-- Guia_estudio_evaluacion_final/Guia_Estudio_Tema3_Vision_Artificial.pdf
-- Guia_estudio_evaluacion_final/README.md
-- Tema 1/Tema 1.pdf
-- Tema 2/tema 2.pdf
-- Tema 3/Tema 3.pdf
-
-### WorkSpace VSC
-- Código.code-workspace
-- Unir.code-workspace
+## Archivos modificados desde último sync (~51 archivos):
 
 ### Raíz
-- git_sync.ps1
-- README.md
+- compromiso_en_trabajos_grupales.pdf *(May 4)*
+
+### Procesamiento del Lenguaje Natural
+- Guias Evaluación/Tema_4_Analisis_Sintactico_Guia_de_Estudio.pdf *(May 7)*
+- Tema 4. Análisis sintáctico/esl-ES.pdf *(May 7)*
+- Tema 5. Análisis semántico/esl-ES (1).pdf *(May 7)*
+
+### Visión Artificial — Actividad 1 (completa)
+- Actividad 1/1088.png.zip *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen_Pablo_Duque.docx *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen_Pablo_Duque.pdf *(May 4)*
+- Actividad 1/Rúbrica_MIA_VA_act1.xlsx *(Apr 29)*
+- Actividad 1/muinar03_act1.docx *(Apr 29)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/01_baseline.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/02_intensity_compare.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/03_gamma_sweep.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/04_equalization.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/04b_color.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/05_head_to_head.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/06_subtraction.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/07_averaging_noise.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/src/utils.py *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/outputs/figures/ [17 PNG] *(May 4)*
+- Actividad 1/Actividad1_Mejora_Imagen/outputs/tables/ [8 CSV] *(May 4)*
+
+### Visión Artificial — Guías y temas
+- Guia_estudio_evaluacion_final/Guia_Estudio_Tema4_Eliminación_de_ruido.pdf *(May 1)*
+- Guia_estudio_evaluacion_final/Guia_Estudio_Tema5_detección_cancelación_anomalias.pdf *(Apr 22)*
+- Guia_estudio_evaluacion_final/Guia_Estudio_Tema6_Operaciones_Elementales_pixeles.pdf *(May 1)*
+- Tema 6. Procesamiento de imagen. Operaciones elementale/esl-ES (1).pdf *(Apr 30)*
+
+### Razonamiento y Planificación Automatica
+- Tema 6. Búsqueda entre adversarios/esl-ES.pdf *(Apr 30)*
+- guias_evaluacion/tema6_guia_estudio_problemas_con_adversarios.pdf *(Apr 30)*
+
+### Técnicas de Aprendizaje automático
+- Laboratorios/Lab 1/Sesion Lab - House_Sales_in_King_County.ipynb *(Apr 30)*
+- Laboratorios/Lab 1/Sesion Lab - House_Sales_in_King_County(20260430_132642).ipynb *(Apr 30)*
+
+### PSU - IA Generativa aplicada a Data — Actividad 1
+> ⚠️ **Omitida del push** — subida manualmente por separado por el usuario.
+
+---
 
 ## Estado del push:
-- [x] Pendiente de push manual (ejecutar git_sync.ps1 en Windows)
+- [ ] Pendiente de push manual (ejecutar git_sync.ps1 en Windows)
 - [ ] Push automático completado via Chrome
 
-**Nota:** El repositorio https://github.com/pabdus3000/UNIR devolvió 404. Puede que aún no haya sido creado o el nombre sea diferente.
+**Nota:** El push automático vía Chrome no se intentó en esta ejecución (tarea desatendida). Ejecutar manualmente.
 
 ## Instrucciones para push manual:
 1. Abre PowerShell en la carpeta UNIR
 2. Ejecuta: `.\git_sync.ps1`
 3. Ingresa tu token si se solicita
 
-Si el repositorio no existe aún, créalo primero en GitHub:
 ```powershell
 cd "C:\Users\Jorge alberto\Documents\Universidades\UNIR"
-git init
-git remote add origin https://github.com/pabdus3000/UNIR.git
-git add .
-git commit -m "Sync 2026-04-02: 62 archivos"
-git push -u origin main
+.\git_sync.ps1
 ```
+
+---
+
+## Reporte histórico anterior — 2026-04-02
+
+62 archivos subidos en el segundo sync. Ver detalles en el historial de commits de GitHub.
